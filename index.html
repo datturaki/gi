@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="WhatsApp Image 2024-10-29 at 00.21.52_0e4ccb51.jpg" alt="Logo">
+                <span>PassX</span>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="login.html" id="gtstd" class="btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero-section" class="hero">
+        <div class="container">
+            <h1>Every <span class="highlight">39 seconds</span><br>
+                a cyber attack happens.<br>
+                <span class="highlight">Is your password ready?</span>
+            </h1>
+            <p>Protect your digital life with PassX secure password management.</p>
+            <a href="login.html" class="btn-large">Start Securing Now</a>
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stat-card">
+                <div class="stat-number"><i class="fa-solid fa-bars-progress"></i></div>
+                <div class="stat-label">Simple, and Smart Password Management</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number"><i class="fa-solid fa-universal-access"></i></div>
+                <div class="stat-label">Effortless Access</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number"><i class="fa-solid fa-sitemap"></i></div>
+                <div class="stat-label">Stay Organized</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Why Choose PassX?</h2>
+            <p class="section-desc">All Your Passwords, All in One Place</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <img src="security.png" alt="Security">
+                    <h3>Secure, Simple, and Smart Password Management</h3>
+                    <p>Effortlessly manage and protect your passwords with PassX's intuitive and robust security features.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="strength.png" alt="Lock">
+                    <h3>Password Strength Checker</h3>
+                    <p>Instantly assess your password’s security with our accurate, easy-to-use strength checker.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="generator.png" alt="Key">
+                    <h3>Password Generator</h3>
+                    <p>Create strong, unique passwords with one click.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="organized.png" alt="Sync">
+                    <h3>Organized Password Management</h3>
+                    <p>Effortlessly store, sort, and access your passwords in one secure place.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://x.com/Sandeepbm886" target="_blank" rel="noopener noreferrer" aria-label="X">
+                            <img src="xlogo.png" alt="X">
+                        </a>
+                        <a href="https://github.com/Sandeepbm886/PassX" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <img src="github-mark.png" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PassX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
